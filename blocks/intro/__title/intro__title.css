@@ -1,9 +1,9 @@
 .intro__title {
   max-width: 690px;
   margin: 0;
+  font-family: 'Inter Black', 'Helvetica', 'Arial', sans-serif;
   font-size: 54px;
   line-height: 1;
-  font-weight: bold;
 }
 
 @media (max-width: 866px) {
