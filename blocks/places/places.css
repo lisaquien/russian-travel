@@ -1,0 +1,19 @@
+.places {
+  max-width: 90.625%;
+  padding: 0;
+  margin: 8.985% auto 0;
+}
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 93.75%;
+    max-height: 365.625%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    max-width: 76.875%;
+    max-height: 256%;
+  }
+}

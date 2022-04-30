@@ -1,0 +1,12 @@
+.place__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 2 / 3;
+}
+
+@media (max-width: 650px) {
+  .place__image {
+    grid-area: image;
+  }
+}

@@ -1,0 +1,6 @@
+.photo-grid__items {
+  box-sizing: border-box;
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(213px, 1fr)) / repeat(auto-fit, minmax(284px, 1fr));
+  gap: 14px;
+}

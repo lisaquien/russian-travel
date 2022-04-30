@@ -1,0 +1,9 @@
+.website {
+  align-self: end;
+}
+
+@media (max-width: 650px) {
+  .website {
+    grid-area: link;
+  }
+}
