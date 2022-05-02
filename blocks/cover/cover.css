@@ -1,7 +1,8 @@
 .cover {
   max-width: 100%;
+  min-height: 640px;
   padding: 0;
-  margin: 8.985% auto 0;
+  margin: 92px auto 0;
   background: url(../../images/cover-trains.jpg) no-repeat;
   object-fit: cover;
   background-position: center;
@@ -10,19 +11,21 @@
 
 @media (min-width: 1280px) {
   .cover {
-    max-width: 92.5%;
-    max-height: 740px;
+    max-width: calc(100% - (48px * 2));
+    min-height: 740px;
   }
 }
 
 @media (max-width: 768px) {
   .cover {
-    max-height: 480px;
+    margin-top: 90px;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    max-height: 200px;
+    margin-top: 66px;
+    min-height: 200px;
   }
 }

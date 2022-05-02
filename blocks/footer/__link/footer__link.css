@@ -1,12 +1,8 @@
 .footer__link {
   display: inline-block;
-  width: fit-content;
-  height: 18px;
   margin-right: 18px;
   font-size: 16px;
   line-height: 1.12;
-  font-style: normal;
-  font-weight: 400;
   color: #fff;
   text-decoration: none;
 }
@@ -17,7 +13,6 @@
 
 @media (max-width: 615px) {
   .footer__link {
-    height: 24px;
     margin: 0 0 32px 0;
     font-size: 24px;
     line-height: 1;

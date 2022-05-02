@@ -1,19 +1,26 @@
 .places {
   max-width: 90.625%;
   padding: 0;
-  margin: 8.985% auto 0;
-}
-
-@media (max-width: 768px) {
-  .places {
-    max-width: 93.75%;
-    max-height: 365.625%;
-  }
+  margin: 92px auto 0;
 }
 
 @media (min-width: 1280px) {
   .places {
     max-width: 76.875%;
-    max-height: 256%;
+    margin-top: 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 93.75%;
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    max-width: 100%;
+    margin-top: 64px;
   }
 }
