@@ -1,26 +1,25 @@
 .footer {
   max-width: 90.625%;
   padding: 0;
-  margin: 8.985% auto 2.34375%;
+  margin: 92px auto 24px;
 }
 
 @media (min-width: 1280px) {
   .footer {
     max-width: 92.5%;
-    margin: 7.1875% auto 1.875%; 
   }
 }
 
 @media (max-width: 768px) {
   .footer {
     max-width: 93.75%;
-    margin: 11.458% auto 3.125%;
+    margin-top: 88px;
   }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 320px) {
   .footer {
-    max-width: 58.125%;
-    margin: 20% 0 7.5% 5%;
+    max-width: 186px;
+    margin: 64px 118px 26px 16px;
   }
 }

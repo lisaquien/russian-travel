@@ -1,26 +1,28 @@
 .place {
   max-width: 100%;
   padding: 0;
-  margin: 0 auto 8.985%;
+  margin-bottom: 8.621%;
   display: grid;
   grid-template: minmax(min-content, max-content) minmax(440px, 1fr) / minmax(440px, 1fr) minmax(min-content, max-content);
   gap: 48px 32px;
 }
 
 .place:last-of-type {
-  margin: 0 auto;
+  margin-bottom: 0;
 }
 
 @media (min-width: 1280px) {
   .place {
+    margin-bottom: 8.131%;
     grid-template: minmax(min-content, max-content) minmax(460px, 1fr) / minmax(460px, 1fr) minmax(min-content, max-content);
-    gap: 40px 48px;
+    gap: 48px 40px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .place {
-    grid-template: minmax(min-content, max-content) minmax(332px, 1fr) / minmax(332px, 1fr) minmax(min-content, max-content);
+    margin-bottom: 10.14%;
+    grid-template: minmax(min-content, max-content) minmax(340px, 1fr) / minmax(340px, 1fr) minmax(min-content, max-content);
     gap: 48px 28px;
   }
 }
@@ -34,5 +36,11 @@
       "image"
       "paragraph";
     gap: 32px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    margin-bottom: 15.625%;
   }
 }
