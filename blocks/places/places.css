@@ -1,13 +1,13 @@
 .places {
-  max-width: 90.625%;
+  max-width: calc(100% - (48px * 2));
   padding: 0;
   margin: 92px auto 0;
 }
 
 @media (min-width: 1280px) {
   .places {
-    max-width: 76.875%;
-    margin-top: 92px;
+    max-width: calc(100% - (148px * 2));
+    margin: 92px 148px 0;
   }
 }
 

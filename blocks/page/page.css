@@ -1,4 +1,5 @@
 .page {
+  max-width: 1280px;
   margin: 0 auto;
   overflow: hidden;
   font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
@@ -9,6 +10,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   color: #fff;
 }
